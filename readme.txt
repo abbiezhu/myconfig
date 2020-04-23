@@ -49,3 +49,10 @@ git clone git@github.com:abbiezhu/wordpress_abbbt4.git
 
 
 分支：
+
+git checkout -b abb
+创建一个分支 ABB  并切换
+同下：
+git branch abb
+git checkout abb
+
