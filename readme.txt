@@ -14,6 +14,12 @@ git log --pretty=oneline 单行查看。
 
 git reset --hard HEAD^ 恢复到上一个版本。
 git reset --hard HEAD^^ 恢复到上上一个版本。
+git reset --hard "commit_ID"
+
+git relog
+git reflog
+
+
 
 
 
