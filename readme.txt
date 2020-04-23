@@ -71,3 +71,17 @@ git swich abb = git checkout abb
 添加分支的解决冲突的测试。看一下效果。
 这一行是在  主分支添加了一行内容
 
+
+
+可以查看到 合并分支 的详情内容
+git log --graph --pretty=oneline --abbrev-commit （git log --graph）
+
+
+
+以下来自 abb01 分支做的修改
+-------------------
+不在主分支 做事情，主分支只用来合屏  下面的分支内容。
+然后在marster分支中 用
+git merge abb01 --no-ff 合并也可以加上 commit
+git merge abb01 --no-ff -m '来自abb01分支的修改'。
+-------------------
