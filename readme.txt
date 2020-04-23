@@ -37,7 +37,15 @@ git remote add origin git@github.com:abbiezhu/wordpress_abbbt4.git
 链接到GITHUB 
 
 git push -u origin master
-推送到 远程库上。
+第一次推送到 远程库上。
 
 把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+git push origin master 推送到 远程库上。
+
+克隆远程仓库
+git clone git@github.com:abbiezhu/wordpress_abbbt4.git
+
+
+分支：
