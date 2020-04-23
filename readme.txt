@@ -56,3 +56,20 @@ git checkout -b abb
 git branch abb
 git checkout abb
 
+在分支 中做的修改 切到 主分支后 内容会消失
+要把其添加到 主分支中才可以:
+git merge abb  在当前分支添加 ABB分支
+
+git branch -d abb 删除ABB 分支（ABB分支做的修改 还是存在的）
+
+当然还可以用swich 命令
+git swich -c abb 创建abb分支并切换 （=git checkout -b abb）
+git swich abb = git checkout abb
+
+
+添加分支的解决冲突的测试。看一下效果。
+
+
+
+
+
